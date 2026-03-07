@@ -13,7 +13,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          name: '主页加载完成',
+          name: '启动完成',
           actionDelay: 5000,
           matches: ['*'],
           excludeMatches: [
@@ -21,9 +21,7 @@ export default defineGkdApp({
             'View[id="HomeSplashScreen/FullScreenLoader/LottieSpinningLoaderView"]',
           ],
           action: 'none',
-          snapshotUrls: [
-            'https://e.gkd.li/616dfb8c-9634-420f-9535-3383aa008ab9',
-          ],
+          snapshotUrls: ['https://i.gkd.li/i/25812289'],
         },
         {
           key: 1,
@@ -34,9 +32,7 @@ export default defineGkdApp({
             'View[id="HomeSplashScreen/FullScreenLoader/LottieSpinningLoaderView"]',
           ],
           action: 'back',
-          snapshotUrls: [
-            'https://e.gkd.li/f192ca3e-53a9-44a5-964d-a6110c2463ae',
-          ],
+          snapshotUrls: ['https://i.gkd.li/i/25812280'],
         },
       ],
     },
@@ -51,9 +47,7 @@ export default defineGkdApp({
           matches: [
             'View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/NewsContentHero /CardImage"] < * < * < * +1 @* > View[desc="關閉"] +1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/RoundIconButtonSecondary/RoundIconButton "] -1 * < * +1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/FloatingLargePrimary/FloatingBase"] > View[desc="立即睇"]',
           ],
-          snapshotUrls: [
-            'https://e.gkd.li/1f8fc43a-7e48-45ff-9958-aed51f579de2',
-          ],
+          snapshotUrls: ['https://i.gkd.li/i/25812286'],
         },
       ],
     },
@@ -69,9 +63,7 @@ export default defineGkdApp({
           matches: [
             '@ImageView[id="com.mcdonalds.mobileapp:id/closeButton"] +1 TextView[text="請確保揀選正確的餐廳"]',
           ],
-          snapshotUrls: [
-            'https://e.gkd.li/958d6916-934c-4652-8015-dd4235f90916',
-          ],
+          snapshotUrls: ['https://i.gkd.li/i/25812297'],
         },
       ],
     },
