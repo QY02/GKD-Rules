@@ -9,9 +9,10 @@ export default defineGkdApp({
       name: '开屏广告',
       fastQuery: true,
       activityIds: 'com.fobwifi.transocks.ui.main.MainActivity',
+      matchDelay: 100,
       matchTime: 10000,
-      actionCd: 300,
-      actionMaximum: 3,
+      actionCd: 200,
+      actionMaximum: 5,
       resetMatch: 'app',
       rules: [
         {
