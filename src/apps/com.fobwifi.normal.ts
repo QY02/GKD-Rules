@@ -11,7 +11,7 @@ export default defineGkdApp({
       activityIds: 'com.fobwifi.transocks.ui.main.MainActivity',
       matchDelay: 100,
       matchTime: 10000,
-      actionCd: 200,
+      actionCd: 100,
       actionMaximum: 5,
       resetMatch: 'app',
       rules: [
