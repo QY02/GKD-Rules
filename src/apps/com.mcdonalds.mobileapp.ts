@@ -45,9 +45,12 @@ export default defineGkdApp({
         {
           activityIds: '.MainActivity',
           matches: [
-            'View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/NewsContentHero /CardImage"] < * < * < * +1 @* > View[desc="關閉"] +1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/RoundIconButtonSecondary/RoundIconButton "] -1 * < * +1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/FloatingLargePrimary/FloatingBase"] > View[desc="立即睇"]',
+            'View[desc="立即睇"] <<n * ->1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/FloatingLargePrimary/FloatingBase"] <<n * ->1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/RoundIconButtonSecondary/RoundIconButton "] <<n * ->1 View[id="HomeSplashScreen/HomeSplashScreenContent/SplashBanner/NewsContentHero /CardImage"] <<n View >n View[desc="關閉"]',
           ],
-          snapshotUrls: ['https://i.gkd.li/i/25812286'],
+          snapshotUrls: [
+            'https://i.gkd.li/i/25812286',
+            'https://i.gkd.li/i/25822890',
+          ],
         },
       ],
     },
